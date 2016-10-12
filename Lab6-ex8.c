@@ -3,6 +3,7 @@
 #include<malloc.h>
 int main(void)
 {
+    //changed unallocated pointer s to static allocated array
 	char s[30], *dyn_s;
 	int ln;
 	printf("Enter the input string\n");

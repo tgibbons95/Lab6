@@ -2,7 +2,8 @@
 #include<malloc.h>
 void main()
 {
+	//no need to free
     char *a = "hey";
-    a = "hello";   
+    a = "hello";
     printf("%s\n",a);
 }

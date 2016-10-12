@@ -2,8 +2,9 @@
 
 int factorial ( int num )
 {
+	//added base case so it didn;t repeat forever
     if(num<=1)
-	return 1;
+		return 1;
     else
     	return num * factorial( num - 1 );
 }

@@ -2,6 +2,7 @@
 int main(void) 
 {
 	char *ch;
+	//took away pointer
 	ch=malloc(sizeof(char)*2);    
 	ch[1]='3';
 	ch[2]='a';
